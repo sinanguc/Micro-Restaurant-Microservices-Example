@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.Service.PaymentAPI\\Micro.Service.PaymentAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\Micro.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\Micro.MessageBus.csproj",
+        "projectName": "Micro.MessageBus",
+        "projectPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\Micro.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.Service.PaymentAPI\\Micro.Service.PaymentAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.Service.PaymentAPI\\Micro.Service.PaymentAPI.csproj",
+        "projectName": "Micro.Service.PaymentAPI",
+        "projectPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.Service.PaymentAPI\\Micro.Service.PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.Service.PaymentAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\Micro.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\Micro.MessageBus\\Micro.MessageBus.csproj"
+              },
+              "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\PaymentProcessor.csproj": {
+                "projectPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\PaymentProcessor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\PaymentProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\PaymentProcessor.csproj",
+        "projectName": "PaymentProcessor",
+        "projectPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\PaymentProcessor.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan\\source\\repos\\MicroRestaurant\\PaymentProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

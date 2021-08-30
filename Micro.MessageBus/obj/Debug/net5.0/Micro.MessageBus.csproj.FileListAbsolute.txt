@@ -1,0 +1,12 @@
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\bin\Debug\net5.0\Micro.MessageBus.deps.json
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\bin\Debug\net5.0\Micro.MessageBus.dll
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\bin\Debug\net5.0\ref\Micro.MessageBus.dll
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\bin\Debug\net5.0\Micro.MessageBus.pdb
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.AssemblyInfoInputs.cache
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.AssemblyInfo.cs
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.dll
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\ref\Micro.MessageBus.dll
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.pdb
+C:\Users\Sinan\source\repos\MicroRestaurant\Micro.MessageBus\obj\Debug\net5.0\Micro.MessageBus.csproj.AssemblyReference.cache
